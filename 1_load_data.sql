@@ -1,8 +1,9 @@
 SET search_path TO hirid;
 
 
-\copy var_meta FROM 'var_meta.csv' DELIMITER ',' CSV HEADER NULL ''
-\copy lab_meta FROM 'lab_meta.csv' DELIMITER ',' CSV HEADER NULL ''
+-- These are not necessary for loading data or creating the concepts
+-- \copy var_meta FROM 'var_meta.csv' DELIMITER ',' CSV HEADER NULL ''
+-- \copy lab_meta FROM 'lab_meta.csv' DELIMITER ',' CSV HEADER NULL ''
 
 
 \cd /opt/gpudata/hirid
