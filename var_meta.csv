@@ -1,0 +1,629 @@
+MetaVariableID,MetaVariableName,MetaVariableUnit,VariableID,Type
+1,HR,/min,200,Monitored
+2,T Central,°C,410,Monitored
+2,T Central,°C,7100,Monitored
+2,T Central,°C,400,Monitored
+3,ABPs,mmHg,100,Monitored
+4,ABPd,mmHg,120,Monitored
+5,ABPm,mmHg,110,Monitored
+6,NIBPs,mmHg,600,Monitored
+7,NIBPd,mmHg,620,Monitored
+8,NIBPm,mmHg,610,Monitored
+9,PAPm,mmHg,160,Monitored
+10,PAPs,mmHg,150,Monitored
+11,PAPd,mmHg,170,Monitored
+12,PCWP,mmHg,800,Monitored
+13,CO,l/min,1000,Monitored
+14,SvO2(m),%,4200,Monitored
+15,ZVD,mmHg,700,Monitored
+15,ZVD,mmHg,15001441,Observed
+15,ZVD,mmHg,960,Monitored
+16,ST1,mm,210,Monitored
+17,ST2,mm,211,Monitored
+18,ST3,mm,212,Monitored
+19,Rhythmus,"Categorical ['SR', 'SB', 'ST', 'AF', 'Nodal', 'Paced', 'PM', 'AV bl (I)', 'AV bl (II)', 'AV bl (III)', 'Vfli', 'Vfla', 'Kammerrhythm', 'Kfli', 'Asystolie',  'Sinusarrhyth']",15001166,Observed
+20,SpO2,%,4000,Monitored
+20,SpO2,%,8280,Monitored
+21,ETCO2,mmHg,2200,Monitored
+21,ETCO2,mmHg,8290,Monitored
+21,ETCO2,mmHg,30010009,Derived
+22,RR,/min,300,Monitored
+22,RR,/min,310,Monitored
+22,RR,/min,5685,Monitored
+23,supplemental oxygen,l/min,15001555,Observed
+23,supplemental oxygen,l/min,15001525,Observed
+24,OUTurine/h,ml/h,10020000,Derived
+25,GCS Antwort,Ordinal Score,10000100,Observed
+26,GCS Motorik,Ordinal Score,10000200,Observed
+27,GCS Augenöffnen,Ordinal Score,10000300,Observed
+28,RASS,Ordinal Score,15001565,Observed
+29,ICP,mmHg,510,Monitored
+29,ICP,mmHg,15004303,Observed
+29,ICP,mmHg,15001597,Observed
+30,TOF,Ordinal Score,7887,Monitored
+31,IN,Flow rate,30005010,Derived
+32,OUT,Flow rate,30005110,Derived
+33,Incrys,Flow rate,30005075,Derived
+34,Incolloid,Flow rate,30005080,Derived
+35,packed red blood cells,Flow rate,1000100,Pharma
+35,packed red blood cells,Flow rate,1000743,Pharma
+36,FFP,Flow rate,1000050,Pharma
+36,FFP,Flow rate,1000744,Pharma
+37,platelets,Flow rate,1000245,Pharma
+37,platelets,Flow rate,1000201,Pharma
+38,coagulation factors,[yes/no],1000799,Pharma
+38,coagulation factors,[yes/no],1001152,Pharma
+38,coagulation factors,[yes/no],1001153,Pharma
+38,coagulation factors,[yes/no],1000701,Pharma
+38,coagulation factors,[yes/no],1001187,Pharma
+38,coagulation factors,[yes/no],1000755,Pharma
+38,coagulation factors,[yes/no],1000798,Pharma
+39,norepinephrine,Flow rate,1000462,Pharma
+39,norepinephrine,Flow rate,1000656,Pharma
+39,norepinephrine,Flow rate,1000657,Pharma
+39,norepinephrine,Flow rate,1000658,Pharma
+40,epinephrine,Flow rate,71,Pharma
+40,epinephrine,Flow rate,1000750,Pharma
+40,epinephrine,Flow rate,1000649,Pharma
+40,epinephrine,Flow rate,1000650,Pharma
+40,epinephrine,Flow rate,1000655,Pharma
+41,dobutamine,Flow rate,426,Pharma
+42,milrinone,Flow rate,1000441,Pharma
+43,levosimendan,Flow rate,1000606,Pharma
+44,theophyllin,Flow rate,1000706,Pharma
+44,theophyllin,Flow rate,1000707,Pharma
+44,theophyllin,Flow rate,1000698,Pharma
+44,theophyllin,Flow rate,1000267,Pharma
+45,vasopressin,Flow rate,112,Pharma
+45,vasopressin,Flow rate,113,Pharma
+46,desmopressin,Flow rate,142,Pharma
+47,vasodilatators,[yes/no],1001047,Pharma
+47,vasodilatators,[yes/no],1000252,Pharma
+47,vasodilatators,[yes/no],1000458,Pharma
+47,vasodilatators,[yes/no],1000459,Pharma
+47,vasodilatators,[yes/no],1000795,Pharma
+47,vasodilatators,[yes/no],1000695,Pharma
+47,vasodilatators,[yes/no],1000867,Pharma
+47,vasodilatators,[yes/no],1000243,Pharma
+47,vasodilatators,[yes/no],1000734,Pharma
+47,vasodilatators,[yes/no],1000993,Pharma
+47,vasodilatators,[yes/no],1000868,Pharma
+47,vasodilatators,[yes/no],1001048,Pharma
+47,vasodilatators,[yes/no],1001141,Pharma
+47,vasodilatators,[yes/no],1001142,Pharma
+47,vasodilatators,[yes/no],117,Pharma
+48,ACE Inhibitors,Flow rate,1000293,Pharma
+48,ACE Inhibitors,Flow rate,1000294,Pharma
+48,ACE Inhibitors,Flow rate,1000813,Pharma
+48,ACE Inhibitors,Flow rate,1000341,Pharma
+48,ACE Inhibitors,Flow rate,1000342,Pharma
+48,ACE Inhibitors,Flow rate,1000343,Pharma
+48,ACE Inhibitors,Flow rate,1000414,Pharma
+48,ACE Inhibitors,Flow rate,1000415,Pharma
+49,Sartane,Flow rate,1001080,Pharma
+49,Sartane,Flow rate,1000419,Pharma
+49,Sartane,Flow rate,1000720,Pharma
+50,Ca Antagonists,Flow rate,1001071,Pharma
+50,Ca Antagonists,Flow rate,1000331,Pharma
+50,Ca Antagonists,Flow rate,121,Pharma
+50,Ca Antagonists,Flow rate,1000719,Pharma
+50,Ca Antagonists,Flow rate,1000270,Pharma
+50,Ca Antagonists,Flow rate,1000271,Pharma
+50,Ca Antagonists,Flow rate,1000872,Pharma
+50,Ca Antagonists,Flow rate,1000873,Pharma
+50,Ca Antagonists,Flow rate,1000457,Pharma
+50,Ca Antagonists,Flow rate,1000876,Pharma
+50,Ca Antagonists,Flow rate,94,Pharma
+50,Ca Antagonists,Flow rate,1000536,Pharma
+51,B-Blocker,Flow rate,1000987,Pharma
+51,B-Blocker,Flow rate,1000278,Pharma
+51,B-Blocker,Flow rate,141,Pharma
+51,B-Blocker,Flow rate,1000721,Pharma
+51,B-Blocker,Flow rate,1000898,Pharma
+51,B-Blocker,Flow rate,1000297,Pharma
+51,B-Blocker,Flow rate,1000298,Pharma
+51,B-Blocker,Flow rate,1001082,Pharma
+51,B-Blocker,Flow rate,1000346,Pharma
+51,B-Blocker,Flow rate,1000347,Pharma
+51,B-Blocker,Flow rate,1000828,Pharma
+51,B-Blocker,Flow rate,386,Pharma
+51,B-Blocker,Flow rate,1000758,Pharma
+51,B-Blocker,Flow rate,1000596,Pharma
+51,B-Blocker,Flow rate,1000436,Pharma
+51,B-Blocker,Flow rate,1000438,Pharma
+51,B-Blocker,Flow rate,1000439,Pharma
+51,B-Blocker,Flow rate,1000440,Pharma
+51,B-Blocker,Flow rate,1001087,Pharma
+51,B-Blocker,Flow rate,1000950,Pharma
+51,B-Blocker,Flow rate,1000492,Pharma
+51,B-Blocker,Flow rate,1000493,Pharma
+51,B-Blocker,Flow rate,138,Pharma
+52,Andere,[yes/no],85,Pharma
+52,Andere,[yes/no],1000477,Pharma
+52,Andere,[yes/no],1000763,Pharma
+52,Andere,[yes/no],1000442,Pharma
+52,Andere,[yes/no],1000443,Pharma
+52,Andere,[yes/no],1000334,Pharma
+53,Adenosin,[yes/no],1000258,Pharma
+54,Digoxin,[yes/no],348,Pharma
+54,Digoxin,[yes/no],1,Pharma
+54,Digoxin,[yes/no],1000901,Pharma
+55,Amiodaron,[yes/no],431,Pharma
+55,Amiodaron,[yes/no],1000268,Pharma
+55,Amiodaron,[yes/no],1000821,Pharma
+56,Atropin,[yes/no],11,Pharma
+58,FIO2,%,2010,Monitored
+59,Peep,cmH2O,2600,Monitored
+59,Peep,cmH2O,2610,Monitored
+60,Ventilator mode,Categorical,3845,Monitored
+61,TV,ml,2410,Monitored
+61,TV,ml,2400,Monitored
+62,Spitzendruck,cmH2O,3110,Monitored
+63,Plateaudruck,cmH2O,3200,Monitored
+64,AWPmean,cmH2O,3000,Monitored
+65,RR set,/min,320,Monitored
+66,AiwayCode,"Categorical ['intubiert', 'tracheotomie', 'Maske', 'Helm', 'Mundstück', 'Nasenmaske', '-']",15001552,Observed
+67,K-sparend,[yes/no],1000787,Pharma
+67,K-sparend,[yes/no],1001083,Pharma
+67,K-sparend,[yes/no],1000524,Pharma
+68,Aldosteron Antagonist,[yes/no],1000505,Pharma
+68,Aldosteron Antagonist,[yes/no],1000506,Pharma
+68,Aldosteron Antagonist,[yes/no],1000877,Pharma
+68,Aldosteron Antagonist,[yes/no],1000636,Pharma
+69,Loop diuretics,Flow rate,1000747,Pharma
+69,Loop diuretics,Flow rate,482,Pharma
+69,Loop diuretics,Flow rate,1000232,Pharma
+69,Loop diuretics,Flow rate,4,Pharma
+69,Loop diuretics,Flow rate,1000986,Pharma
+69,Loop diuretics,Flow rate,1000520,Pharma
+69,Loop diuretics,Flow rate,1000521,Pharma
+69,Loop diuretics,Flow rate,1000522,Pharma
+70,Thiazide,[yes/no],1000428,Pharma
+71,Acetazolamide,[yes/no],1000254,Pharma
+71,Acetazolamide,[yes/no],438,Pharma
+72,Haemofiltration,[yes/no],10002508,Observed
+73,Administriation of antibiotics,[yes/no],1000233,Pharma
+73,Administriation of antibiotics,[yes/no],1000273,Pharma
+73,Administriation of antibiotics,[yes/no],1000601,Pharma
+73,Administriation of antibiotics,[yes/no],1000272,Pharma
+73,Administriation of antibiotics,[yes/no],1001095,Pharma
+73,Administriation of antibiotics,[yes/no],1001096,Pharma
+73,Administriation of antibiotics,[yes/no],1001097,Pharma
+73,Administriation of antibiotics,[yes/no],1001098,Pharma
+73,Administriation of antibiotics,[yes/no],1000274,Pharma
+73,Administriation of antibiotics,[yes/no],1000549,Pharma
+73,Administriation of antibiotics,[yes/no],1000812,Pharma
+73,Administriation of antibiotics,[yes/no],1000781,Pharma
+73,Administriation of antibiotics,[yes/no],1000284,Pharma
+73,Administriation of antibiotics,[yes/no],1000299,Pharma
+73,Administriation of antibiotics,[yes/no],1000671,Pharma
+73,Administriation of antibiotics,[yes/no],1000300,Pharma
+73,Administriation of antibiotics,[yes/no],1000825,Pharma
+73,Administriation of antibiotics,[yes/no],1000666,Pharma
+73,Administriation of antibiotics,[yes/no],1000302,Pharma
+73,Administriation of antibiotics,[yes/no],1000830,Pharma
+73,Administriation of antibiotics,[yes/no],163,Pharma
+73,Administriation of antibiotics,[yes/no],1000304,Pharma
+73,Administriation of antibiotics,[yes/no],1000838,Pharma
+73,Administriation of antibiotics,[yes/no],1000648,Pharma
+73,Administriation of antibiotics,[yes/no],1000305,Pharma
+73,Administriation of antibiotics,[yes/no],1000306,Pharma
+73,Administriation of antibiotics,[yes/no],1000234,Pharma
+73,Administriation of antibiotics,[yes/no],1000315,Pharma
+73,Administriation of antibiotics,[yes/no],1000893,Pharma
+73,Administriation of antibiotics,[yes/no],176,Pharma
+73,Administriation of antibiotics,[yes/no],1000894,Pharma
+73,Administriation of antibiotics,[yes/no],1000317,Pharma
+73,Administriation of antibiotics,[yes/no],1000318,Pharma
+73,Administriation of antibiotics,[yes/no],1000829,Pharma
+73,Administriation of antibiotics,[yes/no],1000320,Pharma
+73,Administriation of antibiotics,[yes/no],1000321,Pharma
+73,Administriation of antibiotics,[yes/no],1000322,Pharma
+73,Administriation of antibiotics,[yes/no],1001170,Pharma
+73,Administriation of antibiotics,[yes/no],1001169,Pharma
+73,Administriation of antibiotics,[yes/no],1001168,Pharma
+73,Administriation of antibiotics,[yes/no],1001075,Pharma
+73,Administriation of antibiotics,[yes/no],1000335,Pharma
+73,Administriation of antibiotics,[yes/no],1000791,Pharma
+73,Administriation of antibiotics,[yes/no],1000352,Pharma
+73,Administriation of antibiotics,[yes/no],1000670,Pharma
+73,Administriation of antibiotics,[yes/no],1000363,Pharma
+73,Administriation of antibiotics,[yes/no],1000365,Pharma
+73,Administriation of antibiotics,[yes/no],1000518,Pharma
+73,Administriation of antibiotics,[yes/no],1000390,Pharma
+73,Administriation of antibiotics,[yes/no],1000407,Pharma
+73,Administriation of antibiotics,[yes/no],1000408,Pharma
+73,Administriation of antibiotics,[yes/no],1001084,Pharma
+73,Administriation of antibiotics,[yes/no],1001086,Pharma
+73,Administriation of antibiotics,[yes/no],1000424,Pharma
+73,Administriation of antibiotics,[yes/no],1000425,Pharma
+73,Administriation of antibiotics,[yes/no],1000426,Pharma
+73,Administriation of antibiotics,[yes/no],1000437,Pharma
+73,Administriation of antibiotics,[yes/no],300,Pharma
+73,Administriation of antibiotics,[yes/no],181,Pharma
+73,Administriation of antibiotics,[yes/no],1000854,Pharma
+73,Administriation of antibiotics,[yes/no],1000855,Pharma
+73,Administriation of antibiotics,[yes/no],1001171,Pharma
+73,Administriation of antibiotics,[yes/no],326,Pharma
+73,Administriation of antibiotics,[yes/no],1000483,Pharma
+73,Administriation of antibiotics,[yes/no],405,Pharma
+73,Administriation of antibiotics,[yes/no],1000837,Pharma
+73,Administriation of antibiotics,[yes/no],1001068,Pharma
+73,Administriation of antibiotics,[yes/no],1001173,Pharma
+73,Administriation of antibiotics,[yes/no],186,Pharma
+73,Administriation of antibiotics,[yes/no],1000797,Pharma
+73,Administriation of antibiotics,[yes/no],351,Pharma
+73,Administriation of antibiotics,[yes/no],1001005,Pharma
+73,Administriation of antibiotics,[yes/no],1001079,Pharma
+73,Administriation of antibiotics,[yes/no],1001193,Pharma
+73,Administriation of antibiotics,[yes/no],1001198,Pharma
+73,Administriation of antibiotics,[yes/no],1000507,Pharma
+73,Administriation of antibiotics,[yes/no],1000508,Pharma
+73,Administriation of antibiotics,[yes/no],1000519,Pharma
+73,Administriation of antibiotics,[yes/no],1000760,Pharma
+73,Administriation of antibiotics,[yes/no],331,Pharma
+73,Administriation of antibiotics,[yes/no],189,Pharma
+73,Administriation of antibiotics,[yes/no],1000348,Pharma
+74,Administation of antimycotic,[yes/no],308,Pharma
+74,Administation of antimycotic,[yes/no],1000669,Pharma
+74,Administation of antimycotic,[yes/no],1000622,Pharma
+74,Administation of antimycotic,[yes/no],1000878,Pharma
+74,Administation of antimycotic,[yes/no],1001013,Pharma
+74,Administation of antimycotic,[yes/no],1000617,Pharma
+74,Administation of antimycotic,[yes/no],1000618,Pharma
+74,Administation of antimycotic,[yes/no],1000644,Pharma
+74,Administation of antimycotic,[yes/no],1000354,Pharma
+74,Administation of antimycotic,[yes/no],1000355,Pharma
+74,Administation of antimycotic,[yes/no],1000675,Pharma
+74,Administation of antimycotic,[yes/no],1000353,Pharma
+74,Administation of antimycotic,[yes/no],1000551,Pharma
+74,Administation of antimycotic,[yes/no],1001027,Pharma
+74,Administation of antimycotic,[yes/no],1001078,Pharma
+74,Administation of antimycotic,[yes/no],1001138,Pharma
+74,Administation of antimycotic,[yes/no],1001140,Pharma
+74,Administation of antimycotic,[yes/no],1000661,Pharma
+74,Administation of antimycotic,[yes/no],1000662,Pharma
+74,Administation of antimycotic,[yes/no],1000663,Pharma
+75,administration of antiviral,[yes/no],190,Pharma
+75,administration of antiviral,[yes/no],1001126,Pharma
+75,administration of antiviral,[yes/no],1000362,Pharma
+75,administration of antiviral,[yes/no],1000765,Pharma
+75,administration of antiviral,[yes/no],1001099,Pharma
+75,administration of antiviral,[yes/no],1001100,Pharma
+75,administration of antiviral,[yes/no],1000530,Pharma
+75,administration of antiviral,[yes/no],1000979,Pharma
+76,Antihelmenticum,[yes/no],1000260,Pharma
+77,Benzodiacepine,Flow rate,442,Pharma
+77,Benzodiacepine,Flow rate,1001215,Pharma
+77,Benzodiacepine,Flow rate,1000977,Pharma
+77,Benzodiacepine,Flow rate,1000978,Pharma
+77,Benzodiacepine,Flow rate,245,Pharma
+77,Benzodiacepine,Flow rate,246,Pharma
+77,Benzodiacepine,Flow rate,1000988,Pharma
+77,Benzodiacepine,Flow rate,1000239,Pharma
+77,Benzodiacepine,Flow rate,1000418,Pharma
+77,Benzodiacepine,Flow rate,1000700,Pharma
+77,Benzodiacepine,Flow rate,1001051,Pharma
+77,Benzodiacepine,Flow rate,1001054,Pharma
+77,Benzodiacepine,Flow rate,1000902,Pharma
+77,Benzodiacepine,Flow rate,251,Pharma
+77,Benzodiacepine,Flow rate,252,Pharma
+77,Benzodiacepine,Flow rate,1000976,Pharma
+77,Benzodiacepine,Flow rate,1000991,Pharma
+78,Alpha 2 Agonisten,Flow rate,1001049,Pharma
+78,Alpha 2 Agonisten,Flow rate,1000847,Pharma
+79,Barbiturate,[yes/no],1000475,Pharma
+79,Barbiturate,[yes/no],1000607,Pharma
+79,Barbiturate,[yes/no],202,Pharma
+80,Propofol,Flow rate,1000491,Pharma
+80,Propofol,Flow rate,1001050,Pharma
+80,Propofol,Flow rate,1001052,Pharma
+80,Propofol,Flow rate,1001053,Pharma
+80,Propofol,Flow rate,208,Pharma
+80,Propofol,Flow rate,1000691,Pharma
+80,Propofol,Flow rate,1000699,Pharma
+81,Glucose Administration,Flow rate,1000746,Pharma
+81,Glucose Administration,Flow rate,1000544,Pharma
+81,Glucose Administration,Flow rate,1000545,Pharma
+81,Glucose Administration,Flow rate,1000567,Pharma
+81,Glucose Administration,Flow rate,1000060,Pharma
+81,Glucose Administration,Flow rate,1000835,Pharma
+81,Glucose Administration,Flow rate,1000022,Pharma
+81,Glucose Administration,Flow rate,1000690,Pharma
+81,Glucose Administration,Flow rate,1000689,Pharma
+82,Insuling Langwirksam,Flow rate,1000963,Pharma
+82,Insuling Langwirksam,Flow rate,1000379,Pharma
+82,Insuling Langwirksam,Flow rate,1000381,Pharma
+83,Insulin Kurzwirksam,Flow rate,1000724,Pharma
+83,Insulin Kurzwirksam,Flow rate,15,Pharma
+84,Liquor/h,ml/h,10010020,Observed
+84,Liquor/h,ml/h,10010072,Observed
+84,Liquor/h,ml/h,10010070,Observed
+84,Liquor/h,ml/h,10010071,Observed
+85,Nimodipin,[yes/no],124,Pharma
+85,Nimodipin,[yes/no],125,Pharma
+86,Opiate,Flow rate,214,Pharma
+86,Opiate,Flow rate,215,Pharma
+86,Opiate,Flow rate,1000427,Pharma
+86,Opiate,Flow rate,1000251,Pharma
+86,Opiate,Flow rate,1000350,Pharma
+86,Opiate,Flow rate,1000351,Pharma
+86,Opiate,Flow rate,1000627,Pharma
+86,Opiate,Flow rate,1000768,Pharma
+86,Opiate,Flow rate,1000692,Pharma
+86,Opiate,Flow rate,1000444,Pharma
+86,Opiate,Flow rate,1000445,Pharma
+86,Opiate,Flow rate,1000446,Pharma
+86,Opiate,Flow rate,1000659,Pharma
+86,Opiate,Flow rate,1000862,Pharma
+86,Opiate,Flow rate,1000932,Pharma
+86,Opiate,Flow rate,1000933,Pharma
+86,Opiate,Flow rate,1000705,Pharma
+86,Opiate,Flow rate,1000771,Pharma
+86,Opiate,Flow rate,1000935,Pharma
+86,Opiate,Flow rate,1000936,Pharma
+86,Opiate,Flow rate,1000937,Pharma
+86,Opiate,Flow rate,1000989,Pharma
+86,Opiate,Flow rate,1000990,Pharma
+86,Opiate,Flow rate,1000984,Pharma
+86,Opiate,Flow rate,1000985,Pharma
+86,Opiate,Flow rate,1000523,Pharma
+86,Opiate,Flow rate,1001046,Pharma
+86,Opiate,Flow rate,1000794,Pharma
+86,Opiate,Flow rate,1000382,Pharma
+86,Opiate,Flow rate,204,Pharma
+87,Non-opioide,[yes/no],275,Pharma
+87,Non-opioide,[yes/no],1000471,Pharma
+87,Non-opioide,[yes/no],1000472,Pharma
+87,Non-opioide,[yes/no],1000473,Pharma
+87,Non-opioide,[yes/no],1000489,Pharma
+87,Non-opioide,[yes/no],1000490,Pharma
+87,Non-opioide,[yes/no],1000683,Pharma
+87,Non-opioide,[yes/no],1000900,Pharma
+87,Non-opioide,[yes/no],225,Pharma
+87,Non-opioide,[yes/no],1000605,Pharma
+87,Non-opioide,[yes/no],1000632,Pharma
+87,Non-opioide,[yes/no],1000858,Pharma
+88,NSAR,[yes/no],1000329,Pharma
+88,NSAR,[yes/no],1000809,Pharma
+88,NSAR,[yes/no],1000859,Pharma
+88,NSAR,[yes/no],1000883,Pharma
+88,NSAR,[yes/no],1000884,Pharma
+88,NSAR,[yes/no],1000885,Pharma
+88,NSAR,[yes/no],1000401,Pharma
+89,Ketalar,Flow rate,1001194,Pharma
+89,Ketalar,Flow rate,1000400,Pharma
+90,Peripherial Anesthesia,[yes/no],1000621,Pharma
+90,Peripherial Anesthesia,[yes/no],1000684,Pharma
+90,Peripherial Anesthesia,[yes/no],1000688,Pharma
+90,Peripherial Anesthesia,[yes/no],1000716,Pharma
+90,Peripherial Anesthesia,[yes/no],1000717,Pharma
+90,Peripherial Anesthesia,[yes/no],1000741,Pharma
+90,Peripherial Anesthesia,[yes/no],1000761,Pharma
+90,Peripherial Anesthesia,[yes/no],1000762,Pharma
+90,Peripherial Anesthesia,[yes/no],1000843,Pharma
+91,Steroids,Flow rate,1000383,Pharma
+91,Steroids,Flow rate,1000770,Pharma
+91,Steroids,Flow rate,1000431,Pharma
+91,Steroids,Flow rate,1000432,Pharma
+91,Steroids,Flow rate,1000433,Pharma
+91,Steroids,Flow rate,1000434,Pharma
+91,Steroids,Flow rate,1000435,Pharma
+91,Steroids,Flow rate,1000486,Pharma
+91,Steroids,Flow rate,1000487,Pharma
+91,Steroids,Flow rate,1000488,Pharma
+91,Steroids,Flow rate,151,Pharma
+91,Steroids,Flow rate,146,Pharma
+91,Steroids,Flow rate,1000929,Pharma
+91,Steroids,Flow rate,1000325,Pharma
+91,Steroids,Flow rate,1000769,Pharma
+92,Thrombozytenhemmer,[yes/no],1000253,Pharma
+92,Thrombozytenhemmer,[yes/no],1000255,Pharma
+92,Thrombozytenhemmer,[yes/no],1000256,Pharma
+92,Thrombozytenhemmer,[yes/no],1000257,Pharma
+92,Thrombozytenhemmer,[yes/no],1000324,Pharma
+92,Thrombozytenhemmer,[yes/no],1000839,Pharma
+92,Thrombozytenhemmer,[yes/no],1000790,Pharma
+92,Thrombozytenhemmer,[yes/no],1000789,Pharma
+92,Thrombozytenhemmer,[yes/no],1001102,Pharma
+92,Thrombozytenhemmer,[yes/no],1000614,Pharma
+93,Enteral Feeding,[yes/no],1000785,Pharma
+93,Enteral Feeding,[yes/no],1000804,Pharma
+93,Enteral Feeding,[yes/no],1000216,Pharma
+93,Enteral Feeding,[yes/no],1000573,Pharma
+93,Enteral Feeding,[yes/no],1001029,Pharma
+93,Enteral Feeding,[yes/no],1000731,Pharma
+93,Enteral Feeding,[yes/no],1001066,Pharma
+93,Enteral Feeding,[yes/no],1000665,Pharma
+93,Enteral Feeding,[yes/no],1000714,Pharma
+94,Parenteral Feeding,[yes/no],1000805,Pharma
+94,Parenteral Feeding,[yes/no],1000806,Pharma
+94,Parenteral Feeding,[yes/no],1000807,Pharma
+94,Parenteral Feeding,[yes/no],1000852,Pharma
+94,Parenteral Feeding,[yes/no],1000558,Pharma
+94,Parenteral Feeding,[yes/no],1000559,Pharma
+94,Parenteral Feeding,[yes/no],1000560,Pharma
+94,Parenteral Feeding,[yes/no],1000561,Pharma
+94,Parenteral Feeding,[yes/no],1000694,Pharma
+95,Heparin,Flow rate,107,Pharma
+95,Heparin,Flow rate,1000373,Pharma
+96,NMH,[yes/no],1000451,Pharma
+96,NMH,[yes/no],1000831,Pharma
+96,NMH,[yes/no],1000832,Pharma
+96,NMH,[yes/no],1000833,Pharma
+96,NMH,[yes/no],1000834,Pharma
+96,NMH,[yes/no],1000863,Pharma
+96,NMH,[yes/no],1000864,Pharma
+96,NMH,[yes/no],1000865,Pharma
+96,NMH,[yes/no],1000895,Pharma
+96,NMH,[yes/no],1001016,Pharma
+96,NMH,[yes/no],1000889,Pharma
+96,NMH,[yes/no],1000597,Pharma
+97,Others in Case of HIT,[yes/no],1000841,Pharma
+97,Others in Case of HIT,[yes/no],1000404,Pharma
+98,Marcoumar,[yes/no],1000476,Pharma
+99,Protamin,[yes/no],1000494,Pharma
+100,Anti Fibrinolyticum, [yes/no],1001010,Pharma
+100,Anti Fibrinolyticum, [yes/no],27,Pharma
+101,Kalium,[yes/no],1000396,Pharma
+101,Kalium,[yes/no],1000080,Pharma
+101,Kalium,[yes/no],1000612,Pharma
+101,Kalium,[yes/no],1000398,Pharma
+101,Kalium,[yes/no],1000393,Pharma
+101,Kalium,[yes/no],1001063,Pharma
+101,Kalium,[yes/no],1000569,Pharma
+101,Kalium,[yes/no],1000568,Pharma
+102,Phosphat,[yes/no],1000395,Pharma
+102,Phosphat,[yes/no],1000836,Pharma
+102,Phosphat,[yes/no],1000394,Pharma
+102,Phosphat,[yes/no],1000082,Pharma
+102,Phosphat,[yes/no],1000729,Pharma
+103,Na,[yes/no],1000546,Pharma
+103,Na,[yes/no],1000090,Pharma
+103,Na,[yes/no],1001055,Pharma
+104,Mg,[yes/no],1000421,Pharma
+104,Mg,[yes/no],1000420,Pharma
+104,Mg,[yes/no],1000070,Pharma
+105,Ca,[yes/no],1000687,Pharma
+105,Ca,[yes/no],1000290,Pharma
+105,Ca,[yes/no],1000291,Pharma
+105,Ca,[yes/no],1000292,Pharma
+106,Trace elements,[yes/no],1000170,Pharma
+106,Trace elements,[yes/no],1000540,Pharma
+107,Bicarbonate,[yes/no],1000453,Pharma
+107,Bicarbonate,[yes/no],1000193,Pharma
+107,Bicarbonate,[yes/no],1000571,Pharma
+108,Antiepileptica,count of drugs,1000478,Pharma
+108,Antiepileptica,count of drugs,1000676,Pharma
+108,Antiepileptica,count of drugs,1000756,Pharma
+108,Antiepileptica,count of drugs,1000857,Pharma
+108,Antiepileptica,count of drugs,1000534,Pharma
+108,Antiepileptica,count of drugs,304,Pharma
+108,Antiepileptica,count of drugs,230,Pharma
+108,Antiepileptica,count of drugs,1000533,Pharma
+108,Antiepileptica,count of drugs,1000779,Pharma
+108,Antiepileptica,count of drugs,1001056,Pharma
+108,Antiepileptica,count of drugs,1000850,Pharma
+108,Antiepileptica,count of drugs,1000531,Pharma
+108,Antiepileptica,count of drugs,1000269,Pharma
+108,Antiepileptica,count of drugs,1000778,Pharma
+108,Antiepileptica,count of drugs,1000851,Pharma
+108,Antiepileptica,count of drugs,1000502,Pharma
+108,Antiepileptica,count of drugs,1000775,Pharma
+108,Antiepileptica,count of drugs,1000774,Pharma
+108,Antiepileptica,count of drugs,1001175,Pharma
+109,Anti delirant medi,[yes/no],1000370,Pharma
+109,Anti delirant medi,[yes/no],1000600,Pharma
+109,Anti delirant medi,[yes/no],1000874,Pharma
+109,Anti delirant medi,[yes/no],1000482,Pharma
+109,Anti delirant medi,[yes/no],1000875,Pharma
+109,Anti delirant medi,[yes/no],1000945,Pharma
+109,Anti delirant medi,[yes/no],1000371,Pharma
+109,Anti delirant medi,[yes/no],239,Pharma
+109,Anti delirant medi,[yes/no],1000728,Pharma
+109,Anti delirant medi,[yes/no],380,Pharma
+109,Anti delirant medi,[yes/no],1000409,Pharma
+109,Anti delirant medi,[yes/no],1000410,Pharma
+109,Anti delirant medi,[yes/no],1001094,Pharma
+109,Anti delirant medi,[yes/no],1000323,Pharma
+109,Anti delirant medi,[yes/no],1001074,Pharma
+109,Anti delirant medi,[yes/no],1000780,Pharma
+110,Psychopharma,[yes/no],1000316,Pharma
+110,Psychopharma,[yes/no],1001002,Pharma
+110,Psychopharma,[yes/no],1000982,Pharma
+110,Psychopharma,[yes/no],1000983,Pharma
+110,Psychopharma,[yes/no],1000796,Pharma
+110,Psychopharma,[yes/no],1000846,Pharma
+110,Psychopharma,[yes/no],1000782,Pharma
+110,Psychopharma,[yes/no],1000595,Pharma
+110,Psychopharma,[yes/no],1000777,Pharma
+110,Psychopharma,[yes/no],1000776,Pharma
+110,Psychopharma,[yes/no],1001006,Pharma
+111,steroids,[yes/no],1000287,Pharma
+111,steroids,[yes/no],1000997,Pharma
+111,steroids,[yes/no],1000286,Pharma
+111,steroids,[yes/no],1000996,Pharma
+111,steroids,[yes/no],1000974,Pharma
+112,non-steroids,[yes/no],1000388,Pharma
+112,non-steroids,[yes/no],1000389,Pharma
+112,non-steroids,[yes/no],260,Pharma
+112,non-steroids,[yes/no],1000499,Pharma
+112,non-steroids,[yes/no],1000974,Pharma
+112,non-steroids,[yes/no],1001060,Pharma
+113,Thyrotardin,[yes/no],1000416,Pharma
+114,Thyroxin,[yes/no],153,Pharma
+114,Thyroxin,[yes/no],1001059,Pharma
+114,Thyroxin,[yes/no],1000914,Pharma
+114,Thyroxin,[yes/no],1001004,Pharma
+114,Thyroxin,[yes/no],1001003,Pharma
+115,Thyreostatikum,[yes/no],1000296,Pharma
+116,Mineralokortikoid,[yes/no],1000599,Pharma
+117,Antihistaminka,[yes/no],1000615,Pharma
+117,Antihistaminka,[yes/no],1000319,Pharma
+118,Chemotherapie,[yes/no],1000680,Pharma
+119,Lysetherapie,[yes/no],1000263,Pharma
+119,Lysetherapie,[yes/no],1000840,Pharma
+119,Lysetherapie,[yes/no],1000823,Pharma
+119,Lysetherapie,[yes/no],1000528,Pharma
+119,Lysetherapie,[yes/no],1000529,Pharma
+120,Muskelrelaxans,[yes/no],1000498,Pharma
+120,Muskelrelaxans,[yes/no],199,Pharma
+120,Muskelrelaxans,[yes/no],1000822,Pharma
+120,Muskelrelaxans,[yes/no],198,Pharma
+120,Muskelrelaxans,[yes/no],1000509,Pharma
+120,Muskelrelaxans,[yes/no],197,Pharma
+121,Anexate,[yes/no],1000356,Pharma
+122,Naloxon,[yes/no],1000452,Pharma
+123,Beh. Pulm. Hypertonie,[yes/no],1000386,Pharma
+123,Beh. Pulm. Hypertonie,[yes/no],1001101,Pharma
+123,Beh. Pulm. Hypertonie,[yes/no],1000610,Pharma
+123,Beh. Pulm. Hypertonie,[yes/no],1001089,Pharma
+123,Beh. Pulm. Hypertonie,[yes/no],1001058,Pharma
+123,Beh. Pulm. Hypertonie,[yes/no],1000808,Pharma
+124,Pankreas Enzyme,[yes/no],1000470,Pharma
+124,Pankreas Enzyme,[yes/no],1000899,Pharma
+125,Terlipressin,[yes/no],1000793,Pharma
+125,Terlipressin,[yes/no],1001061,Pharma
+126,Immunoglobulin,[yes/no],1000376,Pharma
+126,Immunoglobulin,[yes/no],1001042,Pharma
+126,Immunoglobulin,[yes/no],1001026,Pharma
+126,Immunoglobulin,[yes/no],1001043,Pharma
+126,Immunoglobulin,[yes/no],1000814,Pharma
+126,Immunoglobulin,[yes/no],1001025,Pharma
+126,Immunoglobulin,[yes/no],1000757,Pharma
+126,Immunoglobulin,[yes/no],1001024,Pharma
+126,Immunoglobulin,[yes/no],1001041,Pharma
+127,Immunsuppression,[yes/no],1000276,Pharma
+127,Immunsuppression,[yes/no],1000510,Pharma
+127,Immunsuppression,[yes/no],1000730,Pharma
+127,Immunsuppression,[yes/no],1000448,Pharma
+127,Immunsuppression,[yes/no],1000314,Pharma
+127,Immunsuppression,[yes/no],1000311,Pharma
+127,Immunsuppression,[yes/no],1000511,Pharma
+127,Immunsuppression,[yes/no],1000281,Pharma
+127,Immunsuppression,[yes/no],1000312,Pharma
+127,Immunsuppression,[yes/no],1000280,Pharma
+127,Immunsuppression,[yes/no],1000313,Pharma
+127,Immunsuppression,[yes/no],1000942,Pharma
+127,Immunsuppression,[yes/no],1001070,Pharma
+127,Immunsuppression,[yes/no],1000504,Pharma
+127,Immunsuppression,[yes/no],1001035,Pharma
+127,Immunsuppression,[yes/no],1000892,Pharma
+127,Immunsuppression,[yes/no],1001031,Pharma
+127,Immunsuppression,[yes/no],1000786,Pharma
+127,Immunsuppression,[yes/no],1000310,Pharma
+128,VitB Substitution,[yes/no],1000515,Pharma
+128,VitB Substitution,[yes/no],1000516,Pharma
+128,VitB Substitution,[yes/no],1000538,Pharma
+128,VitB Substitution,[yes/no],1000882,Pharma
+128,VitB Substitution,[yes/no],1000740,Pharma
+128,VitB Substitution,[yes/no],1000537,Pharma
+129,Parkinson Medikaiton,[yes/no],1000926,Pharma
+129,Parkinson Medikaiton,[yes/no],1000285,Pharma
+129,Parkinson Medikaiton,[yes/no],1000772,Pharma
+129,Parkinson Medikaiton,[yes/no],1001045,Pharma
+129,Parkinson Medikaiton,[yes/no],1000266,Pharma
+129,Parkinson Medikaiton,[yes/no],1000406,Pharma
+130,GCSF,[yes/no],1000620,Pharma
+130,GCSF,[yes/no],1000619,Pharma
+131,Weight,kg,10000400,Observed
