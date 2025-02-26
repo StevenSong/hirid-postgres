@@ -1,6 +1,15 @@
 CREATE TABLE hirid_derived.pivoted_cbc AS
 SELECT
-    *,
+    patient_id,
+    obs_time,
+    ph,
+    paco2,
+    pao2,
+    base_excess,
+    wbc,
+    -- g/L to g/dL
+    hgb / 10,
+    plt,
     hgb / mchc * 100 AS hct
 FROM
     (

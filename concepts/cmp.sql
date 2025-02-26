@@ -1,7 +1,27 @@
 CREATE TABLE hirid_derived.pivoted_cmp AS
 SELECT
-    *,
-    sodium - chloride - bicarbonate AS anion_gap
+    patient_id,
+    obs_time,
+    bicarbonate,
+    chloride,
+    potassium,
+    sodium,
+    -- mmol/L to mg/dL
+    calcium / 0.2495,
+    -- mmol/L to mg/dL
+    glucose / 0.0555,
+    -- umol/L to mg/dL
+    creatinine / 88.42,
+    -- mmol/L to mg/dL
+    bun / 0.3571,
+    -- umol/L to mg/dL
+    bilirubin / 17.1,
+    -- g/L to g/dL
+    albumin / 10,
+    alp,
+    ast,
+    alt,
+    sodium + potassium - chloride - bicarbonate AS anion_gap
 FROM
     (
         SELECT
