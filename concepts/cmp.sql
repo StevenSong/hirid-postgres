@@ -1,3 +1,48 @@
+CREATE TABLE hirid_derived.cmp_components AS
+SELECT
+    *
+FROM
+    hirid.observations
+WHERE
+    var_id IN (
+        -- bicarbonate
+        20004200,
+        -- chloride
+        24000439,
+        24000521,
+        -- potassium
+        20000500,
+        24000520,
+        24000833,
+        24000867,
+        -- sodium
+        20000400,
+        24000519,
+        24000658,
+        24000835,
+        24000866,
+        -- calcium
+        20005100,
+        -- glucose
+        20005110,
+        24000523,
+        24000585,
+        -- creatinine
+        20000600,
+        -- bun
+        20004100,
+        -- bilirubin
+        20004300,
+        -- albumin
+        24000605,
+        -- alp
+        20002700,
+        -- ast
+        24000330,
+        -- alt
+        20002600
+    );
+
 CREATE TABLE hirid_derived.pivoted_cmp AS
 SELECT
     patient_id,
@@ -7,21 +52,20 @@ SELECT
     potassium,
     sodium,
     -- mmol/L to mg/dL
-    calcium / 0.2495,
+    calcium / 0.2495 AS calcium,
     -- mmol/L to mg/dL
-    glucose / 0.0555,
+    glucose / 0.0555 AS glucose,
     -- umol/L to mg/dL
-    creatinine / 88.42,
+    creatinine / 88.42 AS creatinine,
     -- mmol/L to mg/dL
-    bun / 0.3571,
+    bun / 0.3571 AS bun,
     -- umol/L to mg/dL
-    bilirubin / 17.1,
+    bilirubin / 17.1 AS bilirubin,
     -- g/L to g/dL
-    albumin / 10,
+    albumin / 10 AS albumin,
     alp,
     ast,
-    alt,
-    sodium + potassium - chloride - bicarbonate AS anion_gap
+    alt
 FROM
     (
         SELECT
@@ -99,7 +143,7 @@ FROM
                 END
             ) AS alt
         FROM
-            hirid.observations
+            hirid_derived.cmp_components
         GROUP BY
             patient_id,
             obs_time

@@ -1,3 +1,29 @@
+CREATE TABLE hirid_derived.cbc_components AS
+SELECT
+    *
+FROM
+    hirid.observations
+WHERE
+    var_id IN (
+        -- ph
+        20000300,
+        -- paco2
+        20001200,
+        -- pao2
+        20000200,
+        -- base_excess
+        20001300,
+        -- wbc
+        20000700,
+        -- hgb
+        20000900,
+        24000836,
+        -- mchc
+        24000170,
+        -- plt
+        20000110
+    );
+
 CREATE TABLE hirid_derived.pivoted_cbc AS
 SELECT
     patient_id,
@@ -8,9 +34,9 @@ SELECT
     base_excess,
     wbc,
     -- g/L to g/dL
-    hgb / 10,
-    plt,
-    hgb / mchc * 100 AS hct
+    temp.hgb / 10 AS hgb,
+    temp.hgb / mchc * 100 AS hct,
+    plt
 FROM
     (
         SELECT
@@ -57,8 +83,8 @@ FROM
                 END
             ) AS plt
         FROM
-            hirid.observations
+            hirid_derived.cbc_components
         GROUP BY
             patient_id,
             obs_time
-    );
+    ) AS temp;

@@ -1,8 +1,8 @@
-CREATE TABLE hirid_derived.gcs AS
+CREATE TABLE hirid_derived.gcs_components AS
 SELECT
     *
 FROM
-    observations
+    hirid.observations
 WHERE
     var_id IN (
         -- verbal
@@ -38,7 +38,7 @@ FROM
                 END
             ) AS gcs_eye
         FROM
-            gcs
+            hirid_derived.gcs_components
         GROUP BY
             patient_id,
             obs_time

@@ -1,3 +1,29 @@
+CREATE TABLE hirid_derived.vitals_components AS
+SELECT
+    *
+FROM
+    hirid.observations
+WHERE
+    var_id IN (
+        -- hr
+        200,
+        -- rr
+        300,
+        310,
+        5685,
+        -- sbp
+        100,
+        -- dbp
+        120,
+        -- sbp_ni
+        600,
+        -- dbp_ni
+        620,
+        -- spo2
+        4000,
+        8280
+    );
+
 CREATE TABLE hirid_derived.pivoted_vitals AS
 SELECT
     patient_id,
@@ -38,7 +64,7 @@ SELECT
         END
     ) AS spo2
 FROM
-    hirid.observations
+    hirid_derived.vitals_components
 GROUP BY
     patient_id,
     obs_time;
